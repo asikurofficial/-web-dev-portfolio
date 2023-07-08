@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+/* common css */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 36px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* nav start  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+    align-items: center;
+
+}
+
+nav h3 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav h3 span {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* banner starts  */
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url('../photos/header_bg.png'), url('../photos/developer.png');
+    background-position: bottom right, top left;
+    background-repeat: no-repeat;
+    padding: 100px 30px 0px 230px;
+}
+
+.dp {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-greetings {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-discription {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contact-btn {
+    background: #FFF8F3;
+    color: #FD6E0A;
+    text-align: center;
+    border: 2px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* About me starts */
+
+.about-me {
+    margin: 150px 350px;
+    max-width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px;
+}
+
+.about-title {}
+
+/* what-i-do starts */
+
+.what-i-do-title {
+    padding-top: 0px;
+}
+
+.what-i-do-description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto 350px;
+}
+
+.skills {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    margin: auto 350px;
+}
+
+.skills-details {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-details p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* My Resume starts */
+
+.My-resume-column {
+    display: flex;
+    margin: auto 350px;
+
+
+}
+
+.My-resume-details h3 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.My-resume-details h4 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.My-resume-details h6 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.My-resume-details p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+.Download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer section :start */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 40px;
+    padding: 0px 220px;
+}
+
+.footer-column {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.footer-column p {
+    padding-bottom: 20px;
+}
+
+.footer-column input,
+textarea {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
